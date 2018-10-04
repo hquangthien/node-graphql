@@ -9,7 +9,7 @@ const app = express()
 app.use(cors())
 app.use(bodyParser.json())
 app.listen(process.env.PORT || 4000, () => {
-  console.log('now listening for requests on port 4000')
+  console.log(`now listening for requests on port ${process.env.PORT || 4000}`)
 })
 
 // routes
