@@ -3,13 +3,14 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const cors = require('cors')
 const config = require('./config/config')
+const port = process.env.PORT || 4000
 
 // setup express
 const app = express()
 app.use(cors())
 app.use(bodyParser.json())
-app.listen(process.env.PORT || 4000, () => {
-  console.log(`now listening for requests on port ${process.env.PORT || 4000}`)
+app.listen(port, () => {
+  console.log(`now listening for requests on port ${port}`)
 })
 
 // routes
