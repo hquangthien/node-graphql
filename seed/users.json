@@ -1,0 +1,16 @@
+[
+  {
+    "username": "hquangthien",
+    "email": "hquangthien@gmail.com",
+    "password": "123",
+    "token": "123",
+    "role": 1
+  },
+  {
+    "username": "hquangthien1",
+    "email": "hquangthien1@gmail.com",
+    "password": "123",
+    "token": "123",
+    "role": 2
+  }
+]
